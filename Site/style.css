@@ -1,0 +1,60 @@
+body {
+	background: #DAF9F7;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.head {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.head a {
+	margin-right: 20px;
+	color: white;
+}
+
+.head a:hover {
+	color: red;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+}
+
+.all {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.link {
+	color: grey;
+	font-size: 40px;
+}
+
+.link:hover {
+	color: black;
+}
+
+.smalllink {
+	color: grey;
+}
+
+.smalllink:hover {
+	color: black;
+}
+
+img {
+	width: 300px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 20px;
+}

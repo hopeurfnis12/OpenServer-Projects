@@ -1,0 +1,38 @@
+.div1{
+    float: left;
+    margin: 5px;
+    border: 2px solid blue;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: url("images/rub.jpg") no-repeat center;
+
+}
+
+.button{
+    background: rgba(0, 0, 0, 0.4);
+    border: solid;
+    border-style: solid none none solid;
+    padding: 30px;
+    z-index: 1;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    cursor: pointer;
+}
+
+.button:hover{
+    text-shadow: white 1px 0px 20px;
+    border: solid;
+    transition: all 0.2s ease;
+}
+
+.sss{
+    filter: blur(10px);
+    pointer-events: none;
+}
+
+.clock{
+    pointer-events: none;
+    border: none;
+}

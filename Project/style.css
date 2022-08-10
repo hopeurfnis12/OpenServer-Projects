@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background: black;
+    height: 100px;
+    margin: 0 auto;
+    display:block;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header a {
+    font-family: 'Impact', fantasy;
+    font-size: 60px;
+    color: #531370;
+    float: left;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.header a:hover {
+    color: #8f2bbd;
+    transition: all 0.4s ease;
+}
+
+.header .links a {
+    font-family: 'Impact', fantasy;
+    font-size: 20px;
+    color: #531370;
+    float: right;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.header .links a:hover {
+    color: #8f2bbd;
+    transition: all 0.4s ease;
+}
+
+
+.links {
+    padding-top: 50px;
+}
+
+/*////////////////////*/
+
+
+
+/* Footer */
+.end {
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    margin-top: auto;
+}
+
+
+.end a {
+    text-decoration: none;
+    color: #531370;
+    margin-left: 20px;
+    font-family: 'Impact', fantasy;
+}
+
+.end a:hover {
+    color: #8f2bbd;
+    transition: all 0.4s ease;
+}
+
+/*////////////////////*/
+
+
+/* table */
+th, td {
+    padding: 10px;
+}
+th {
+    background: gray;
+    color: white;
+}
+td {
+    background: darkgray;
+}
+/*///////////////////*/
+
+
+/* ass */
+.as {
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-right: 250px;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}    
+
+.as a {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.as a:hover {
+    color: rgba(0,0,0, 1);
+    transition: all 0.4s ease;
+}
+
+.as p {
+    color: rgba(0,0,0,.5);
+    margin-left: 20px;  
+}
+/*///////////////////*/
+
+
+/* content */
+.content {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+.content a {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: rgba(0,0,0, 1);
+    transition: all 0.4s ease;
+}
+
+.text {
+    margin-bottom: 10px;
+    text-indent: 1.5em;
+    line-height: 25px;
+}
+
+.image {
+    width: 200px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.link_album a {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.link_album a:hover {
+    color: rgba(0,0,0, 1);
+    transition: all 0.4s ease;
+}
+
+.album a {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.album a:hover {
+    color: rgba(0,0,0, 1);
+    transition: all 0.4s ease;
+}
+
+.album p {
+    margin-left: 20px;
+}
+
+.list {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.list p {
+    border-style: none none solid none;
+}
+
+.nw {
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+}
+
+select {
+    margin-bottom: 1em;
+    padding: .25em;
+    border: 0;
+    border-bottom: 2px solid currentcolor; 
+    font-weight: bold;
+    letter-spacing: .15em;
+    border-radius: 0;
+    height: 25px;
+}
+
+.search {
+    margin-bottom: 1em;
+    padding: .25em;
+    border: 0;
+    border-bottom: 2px solid currentcolor; 
+    font-weight: bold;
+    letter-spacing: .15em;
+    border-radius: 0;
+}
+
+.btn {
+    background: white;
+    margin-bottom: 1em;
+    padding: .25em;
+    border: 0;
+    border-bottom: 2px solid currentcolor; 
+    font-weight: bold;
+    letter-spacing: .15em;
+    border-radius: 0;
+    height: 25px;
+}
+
+.btn:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.re {
+    margin-top: 30px;
+}
+
+.re p {
+    font-size: 20px;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+.re a {
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+.re a:hover {
+    color: rgba(0,0,0, 1);
+    transition: all 0.4s ease;
+}
+
+.con label {
+    float: left;
+    margin-left: 450px;
+    font-size: 20px;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+.lab {
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    height: 30px;
+    margin-top: 10px;
+    width: 300px;
+    border: 0;
+    border-bottom: 2px solid;
+}
+
+textarea {
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 300px;
+    border: 2px;
+    border-style: none solid solid none;
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Andale Mono", monospace;
+}
+
+body {
+    background: #DDEEF2;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.header {
+    background: #95BBEB;
+    height: 60px;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
+.content {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.content a {
+    color: grey;
+}
+
+.content a:hover {
+    color: black;
+}
+
+
+
+
+.links {
+    padding-top: 20px;
+}
+
+.links a {
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+.links a:hover {
+    text-shadow: red 0 0 10px;
+}
+
+
+
+
+.result {
+    margin-top: 20px;
+}
+
+
+
+
+.list_img {
+    display: flex;
+}
+
+.block {
+    text-align: center;
+    margin-right: 20px;
+    width: 200px;
+    height: 250px;
+}
+
+.block img {
+    border: solid;
+    margin-top: 20px;
+}
+
+.block img:hover {
+    margin-top: 10px;
+    height: 210px;
+    transition: all 0.4s ease;
+}
+
+.link_img {
+    height: 200px;
+}
+
+
+
+
+.image {
+    height: 400px;
+    float: right;
+    margin-left: 20px;
+}
+
+
+
+
+.list {
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.list a {
+    margin-bottom: 10px;
+}
+
+.list_nominee {
+    width: 400px;
+    background: #EDC293;
+    border: 3px solid;
+    border-color: #A88B6C;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.list_wins {
+    width: 400px;
+    background: #EEEB93;
+    border: 3px solid;
+    border-color: #A8A667;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}

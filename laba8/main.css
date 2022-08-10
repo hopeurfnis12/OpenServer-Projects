@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-width: 2px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    font-size: 110%;
+    color: white;
+    padding-bottom: 0px;
+    text-shadow: black 2px 2px 0px;
+}
+
+p {
+    font-family: "Times New Roman";
+    text-shadow: black 2px 2px 0px;
+    color: white;
+    font-size: 14px;
+    text-indent: 1.5em;
+}
+
+li {
+    color: black;
+}
+
+img {
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    margin-left: 20px;
+    float: right;
+}
+
+/* Header */
+.header {
+    overflow: hidden;
+    background: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 90px;
+}
+
+.header .home a {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #941C14;
+    float: left;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.header .home a:hover {
+    color: #FF1200;
+    transition: all 0.4s ease;
+}
+
+.links {
+    padding-top: 50px;
+}
+    
+.header .links a {
+    font-family: "Times New Roman";
+    float: right;
+    color: #8A8A8A;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header .links a:hover {
+    color: white;
+	transition: all 0.4s ease;
+}
+
+.all {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+
+.info {
+    padding: 20px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn {
+    float: right;
+    width: 80px;
+}
+
+.btn a {
+    text-shadow: black 2px 2px 0px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background: #424242;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 1);
+    border-radius: 7px;
+}
+
+.btn a:hover {
+    background: rgba(0, 0, 0, 1);
+    transition: all 0.4s ease;
+}
+
+footer {
+    background: black;
+    height: 150px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.end {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.end a {
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+.end a:hover {
+    color: white;
+    text-shadow: black 1px 0px 10px;
+    transition: all 0.4s ease;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h3{
+    color: white;
+    margin-bottom: 0;
+}
+
+.collumnsup {
+    padding-right: 100px;
+}
+
+.collumncon {
+    padding-left: 100px;
+}
